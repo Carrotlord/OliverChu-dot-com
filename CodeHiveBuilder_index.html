@@ -71,7 +71,7 @@ end
 // Confused?
 // In Photon Mint, you can concatenate dictionaries by
 // using the plus sign.
-if keyExists("client_ip_address", MINT_REQUEST + SERVER)
+if keyExists("client_ip_address", MINT_REQUEST + SERVER) != null
     contents = fileToStr("SPECIAL_X")
     if hash("best-choice", (MINT_REQUEST + SERVER)["client_ip_address"]) in contents
         // Use a magic string to make code text
