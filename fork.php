@@ -3,7 +3,7 @@
 <head>
 <!-- Welcome to the source code for OliverChu.com!
 This HTML source was all written by
-Mr. Jiangcheng Oliver Chu, by hand.           -->
+Mr. Jiangcheng Oliver Chu, by hand. -->
 <title>CodeHive Builder</title>
 <!-- Global CSS -->
 <link rel="stylesheet" type="text/css" href="http://www.oliverchu.com/global.css" />
