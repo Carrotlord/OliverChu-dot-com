@@ -82,7 +82,8 @@ if keyExists("client_ip_address", MINT_REQUEST + SERVER) != null
         for each dee of kaboomed
             if dee in (MINT_REQUEST + SERVER)["client_ip_address"]
                 dee = dee.remove((MINT_REQUEST + SERVER)["client_ip_address"])
-                for i = 0; i < 32; i++
+                // Do this 32 times.
+                repeat 32
                     dee = dee.replace("\n\n", "\n")
                 end
                 print dee + "\n(End of Current File)\n"
