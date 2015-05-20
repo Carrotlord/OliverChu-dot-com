@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="Jiangcheng Oliver Chu">
+  <title>Projects</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="global3.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+
+<nav class="navbar navbar-default main_bar">
+  <div class="name_title">Oliver Chu</div>
+  <div class="container-fluid">
+    <div>
+      <ul class="main_bar nav navbar-nav">
+        <li class="col-md-3 main_bar_button"><a class="whitelink" href="index.html">Home</a></li>
+        <li class="active col-md-3 main_bar_button"><a class="whitelink" href="projects.html">Projects</a></li>
+        <li class="col-md-3 main_bar_button"><a class="whitelink" href="resume.html">Resume</a></li>
+        <li class="col-md-3 main_bar_button"><a class="whitelink" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="lower_boundary">&nbsp;</div>
+</nav>
+<div class="center">
+<!-- Modal -->
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Mint Programming Language</h4>
+      </div>
+      <div class="modal-body">
+<table class="width_down center_object"><tr><td>
+<pre class="mint_code_box">
+<span class="keyword">import</span> math
+
+<span class="keyword">sub</span> factor(n)
+    results = []
+    <span class="keyword">for</span> i = <span class="number2">1</span>; i &lt;= sqrt(n); i++
+        <span class="keyword">if</span> n % i == <span class="number2">0</span>
+            newFactors = [i, n / i]
+            results.append(newFactors)
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+    <span class="keyword">return</span> results
+<span class="keyword">end</span>
+<span class="keyword">print</span> factor(<span class="number2">2000</span>)</pre>
+</td></tr></table>
+<div class="left_justify"><br>
+Mint is a scripting language that I originally started as a parsing experiment. It supports operator precedence, dynamic arrays, objects, constructors, and first class functions. One of my largest projects, Mint can be thought of as a simplified version of the Ruby language. I wrote this project in Java.
+</div>
+      </div>
+      <div class="modal-footer center">
+        <a href="https://github.com/Carrotlord/Mint-Programming-Language" class="btn btn-primary">View on Github</a>
+        <a href="http://mint.oliverchu.com/" class="btn btn-success">Official Website</a>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal -->
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Chess Commentator</h4>
+      </div>
+      <div class="modal-body">
+<img src="img/chess_commentator_full_view.png" alt="Chess Commentator">
+<div class="left_justify"><br>
+Chess Commentator is an AI that comments upon chess moves, such as "the knight is now threatening the rook. Black is in the lead". Comes with an interactive chess board. You can see the legal moves for each piece, move pieces, and capture them. Play with a friend and see what the AI thinks of your game. Written in JavaScript.
+</div>
+      </div>
+      <div class="modal-footer center">
+        <a href="https://github.com/Carrotlord/ChessCommentator" class="btn btn-primary">View on Github</a>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal -->
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Successor ASM Simulator</h4>
+      </div>
+      <div class="modal-body">
+<img src="img/successor_full_view.png" alt="Successor ASM Simulator">
+<div class="left_justify"><br>
+Successor ASM allows the user to write assembly code in the browser and simulate it in a virtual environment, for the purposes of both debugging and learning assembly. I also created a GUI with register and stack visualization. It won 2<sup>nd</sup> place at the spring 2015 CSUA hackathon. Written in JavaScript.
+</div>
+      </div>
+      <div class="modal-footer center">
+        <a href="https://github.com/Carrotlord/Successor-ASM" class="btn btn-primary">View on Github</a>        
+      </div>
+    </div>
+  </div>
+
+
+<!-- Modal -->
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">MintChime Editor</h4>
+      </div>
+      <div class="modal-body">
+<img src="img/mintchime_full_view.png" alt="MintChime Editor">
+<div class="center"><br>
+A code editor written in Java. It has multiple tabs and will syntax-highlight many languages.
+</div>
+      </div>
+      <div class="modal-footer center">
+        <a href="https://github.com/Carrotlord/MintChime-IDE" class="btn btn-primary">View on Github</a>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal -->
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Conway Engine</h4>
+      </div>
+      <div class="modal-body">
+<img src="img/conway_engine_full_view.png" alt="MintChime Editor">
+<div class="left_justify"><br>
+Runs Conway's Game of Life in the browser. Click the tiles to swap between living and dead cells, and compose your own 'organisms' that have all sorts of interesting behaviors. Written in JavaScript.
+</div>
+      </div>
+      <div class="modal-footer center">
+        <a href="https://github.com/Carrotlord/ConwayEngine" class="btn btn-primary">View on Github</a>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

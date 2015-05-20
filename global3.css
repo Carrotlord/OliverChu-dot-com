@@ -1,0 +1,492 @@
+/* @author Jiangcheng Oliver Chu */
+
+/** Begin bootstrap modifications **/
+.navbar-nav > li > a {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.navbar {
+    min-height:32px;
+    border-radius: 0;
+}
+
+.navbar-default {
+  background-color: #186797;
+  border-color: #2b95c0;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #2b95c0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #2b95c0;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2b95c0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #2b95c0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #2b95c0;
+  }
+}
+
+/* Old style navlists */
+.nav-header {
+  display: block;
+  padding: 3px 15px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #999999;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+.nav li + .nav-header {
+  margin-top: 9px;
+}
+.nav-list {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.nav-list > li,
+.nav-list .nav-header {
+  margin-left: -15px;
+  margin-right: -15px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.nav-list > li {
+  padding: 3px 15px;
+}
+/* .nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #428bca;
+} */
+.nav-list [class^="icon-"],
+.nav-list [class*=" icon-"] {
+  margin-right: 2px;
+}
+.nav-list .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+/** End bootstrap modifications **/
+
+@font-face {
+    font-family: GidoleOpenFont;
+    src: url("openfonts/Gidole-Regular.otf");
+}
+
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    color: black;
+}
+
+#main {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#main td, th {
+    border: none;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+#secondary {
+    text-align: left;
+    width: 50%;
+    margin-left: auto; 
+    margin-right: auto;
+    border: none;
+}
+
+#tertiary {
+    text-align: left;
+    width: 65%;
+    margin-left: auto; 
+    margin-right: auto;
+    border: none;
+}
+
+#projects_secondary {
+    width: 60%;
+    text-align:left;
+    margin-left: auto; 
+    margin-right: auto;
+    border: none;
+    border-collapse: collapse;
+}
+
+#projects_secondary td, th {
+    border: none;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+td.project_image_holder {
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #4169e1;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #191970;
+}
+
+a.whitelink {
+    text-decoration: none;
+    color: white;
+}
+
+a.whitelink:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.name_title {
+    background-color: #186797;
+    text-align: center;
+    color: white;
+    font-family: GidoleOpenFont, sans-serif;
+    font-size: 35px;
+}
+
+.lower_boundary {
+    height:3px;
+    background-color:#2b95c0;
+}
+
+.mint_title {
+    font-size: 2.5em;
+    color: #124F72;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.mint_description {
+    font-size: 1.25em;
+    color: #124F72;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.note {
+    font-size: smaller;
+}
+
+#mint_code_examples {
+    border: none;
+    margin-left: auto; 
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.btn-xmini {
+    padding: 3px 3px;
+    font-size: 6px;
+    border-radius: 2px;
+    width: 105px;
+}
+
+#mint_code_examples td, th {
+    border: none;
+    padding: 4px;
+    white-space: pre;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11pt;
+}
+
+a.mint_section_link {
+    font-weight: bold;
+}
+
+a.mint_download_link {
+    font-size: 1.25em;
+}
+
+div.section_tab_left {
+    content: " ";
+    float: left;
+    height: 0px;
+    border-right: 10px solid #1e90ff;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+}
+
+div.section_tab_left:hover {
+    cursor: pointer;
+}
+
+div.section_tab_center {
+    float: left;
+    width: 140px;
+    background-color: #1e90ff;
+    color: white;
+    height: 22px;
+    line-height: 22px; /* Must match height property to emulate vertical-align: middle */
+    text-align: center;
+}
+
+div.section_tab_center:hover {
+    cursor: pointer;
+}
+
+div.section_tab_right {
+    content: "";
+    float: left;
+    height: 0px;
+    border-left: 10px solid #1e90ff;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+}
+
+div.section_tab_right:hover {
+    cursor: pointer;
+}
+
+div.project_icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Prevents tab "hexagons" from splitting into 3 separate shapes
+ * when resizing the window to a smaller width.
+ * The min-width property should be approximately
+ * (TABLE_PADDING * 2) + (SECTION_TAB_WIDTH)
+ * or slightly larger than that.
+ */
+td.section_tab_holder {
+    min-width: 164px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center_object {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.left_justify {
+    text-align: left;
+}
+
+.single_line {
+    white-space: nowrap;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.keyword {
+    color: #1e90ff;
+}
+
+.string {
+    color: #800080;
+}
+
+.comment {
+    color: #008000;
+}
+
+.number {
+    color: #0000ff;
+}
+
+.unavailable {
+    color: gray;
+}
+
+ul.main_bar {
+    width: 100%;
+}
+
+li.main_bar_button {
+    text-align: center;
+    font-size: 15px;
+}
+
+img.rounded {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+img.circular{
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+
+table.width_down {
+    width: 40px;
+}
+
+pre.mint_code_box {
+    color: white;
+    background-color: #333;
+    margin: 0;
+    padding: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.keyword
+{
+    color:#1e90ff;
+}
+
+.string2 {
+    color:#7B60FF;
+}
+
+.comment2 {
+    color:#00A70E;
+}
+
+.tag {
+    color:#E57200;
+}
+
+.number2 {
+    color:#93A3FF;
+}
+
+.mint_active {
+    color: white;
+    background-color: #2B95C0;
+    padding-left: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.mint_inactive {
+    color: white;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.mint_navtitle {
+    color: #2B95C0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mint_inactive:hover {
+    background-color: #186797;
+}
+
+.mint_header {
+    color: white;
+}
+
+a.no_style {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+ul.no_bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    width: 140px;
+    padding: 0;
+    margin: 0;
+    background-color: #124F72;
+    vertical-align: top;
+}
+
+.mint_content {
+    /*text-align: center;*/
+    vertical-align: top;
+}
+
+table.mint_content_tbl {
+    /* position: relative;
+    min-height: 100%;
+    min-width: 100%; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
