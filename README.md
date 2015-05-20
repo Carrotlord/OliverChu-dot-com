@@ -1,4 +1,9 @@
-OliverChu-dot-com
+oliverchu.com
 =================
 
-I'd prefer not to lose my website forever, so I am making the server-side code for my website available for all to share. Hint: The code is not written in PHP, Ruby, Python, Perl, or Server-Side JavaScript.
+I'd prefer not to lose my website forever, so here are the skeleton files.
+
+**Caveats**
+
+* Bootstrap is not included in this repo. You will need Bootstrap 3.3.4 or similar.
+* Images containing personal information have been omitted.
